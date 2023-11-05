@@ -7,7 +7,7 @@ export class SingleLinkedList {
     }
 
     //Add a node to the end of the list 
-    append(data) {
+    insertAtLast(data) {
         let node = new Node(data);
         let current;
 
@@ -23,13 +23,13 @@ export class SingleLinkedList {
     }
 
     // Add a node to the beginning of the list 
-    prepend(data){
+    insertAtBeginning(data){
         this.head = new Node(data, this.head);
         this.size++;
     }
 
     // Remove 
-    remove(data){
+    removeByElement(data){
         let current = new Node(data);
         let previous = null;
 
@@ -40,7 +40,7 @@ export class SingleLinkedList {
                 } else {
                     pervious.next = current.next;
                 }
-                this.size++;
+                this.size--;
                 return current.data;
             }
 
@@ -60,7 +60,7 @@ export class SingleLinkedList {
     }
 
     // Find a node 
-    find(data){
+    findByElement(data){
         let current = this.head;
 
         while(current != null){

@@ -4,9 +4,9 @@ import { SingleLinkedList } from './SingleLinkedList.js'
 const linkedList = new SingleLinkedList();
 
 // Insert some data into the linked list
-linkedList.append(10);
-linkedList.append(20);
-linkedList.append(30);
+linkedList.insertAtLast(10);
+linkedList.insertAtLast(20);
+linkedList.insertAtLast(30);
 
 linkedList.printListData();
 
