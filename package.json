@@ -1,0 +1,23 @@
+{
+  "name": "data-structre-in-javascript",
+  "version": "1.0.0",
+  "description": "Data structure ",
+  "main": "App.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ambas-T/Data-Structre-in-JavaScript.git"
+  },
+  "author": "Ambasa Teferra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ambas-T/Data-Structre-in-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Ambas-T/Data-Structre-in-JavaScript#readme",
+  "keywords": [
+    "LinkedList"
+  ]
+}
