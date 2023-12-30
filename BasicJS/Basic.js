@@ -8,6 +8,8 @@ let height = 180; // Number
 let greeting = "Hello"; // String
 let isActive = true; // Boolean
 
+
+
 // Basic Operators (+, -, *, /, %)
 let sum = 10 + 5; // Addition
 let difference = 10 - 5; // Subtraction
@@ -45,10 +47,15 @@ console.log(sayGoodbye(name));
 
 // Basic Array Methods (push, pop, shift, unshift)
 let numbers = [1, 2, 3];
+console.log("numbers :", numbers);
 numbers.push(4); // Adds at the end
+console.log("Push 4:", numbers);
 numbers.pop(); // Removes from the end
+console.log("Pop 4:", numbers);
 numbers.shift(); // Removes from the start
+console.log("Shift :", numbers);
 numbers.unshift(0); // Adds at the start
+console.log("Unshift :", numbers);
 
 // Simple DOM Manipulation (querySelector, getElementById)
 // Note: These lines should be run in a browser environment
