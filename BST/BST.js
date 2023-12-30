@@ -8,7 +8,7 @@ export class BST {
     _recursiveInsert(root, node){
 
         if(root === null){
-            return node;
+            return null;
         }
 
         if(root.data > node.data){

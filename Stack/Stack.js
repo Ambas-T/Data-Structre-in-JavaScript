@@ -64,6 +64,7 @@ export class Stack{
         }
 
         let current = this.head;
+        let response 
 
         while(current != null){
             console.log(current.data);
