@@ -8,6 +8,44 @@ let height = 180; // Number
 let greeting = "Hello"; // String
 let isActive = true; // Boolean
 
+/**
+ * Data Types 
+ *      Primitive Type 
+ *          Number, String, Boolean, Undefined, Null, Symbol, BigInt
+ *      Reference Type
+ *          Object, Arrays, Function, Date, RegExp
+ */
+
+/**
+ * Email, Phone Number, ID, 
+ */
+
+/**
+ * Call by value and Call by reference 
+ *      Primitive Type - Call by value 
+ *      Reference Type - Call by reference 
+ */
+
+//Call By value 
+let num1 = 100;
+let num2 = num1; // Copying value of num1 into num2
+
+num2 = 200; // Changing num2 doesn't affect num1
+
+console.log(num1); // 100
+console.log(num2); // 200
+
+//Call by refernce 
+let obj1 = { name: 'Alice' };
+let obj2 = obj1; // obj2 is a reference to the same object
+
+obj2.name = 'Bob'; // Changing property through obj2
+
+console.log(obj2);
+console.log(obj1);
+
+console.log(obj1); // { name: 'Bob' }
+console.log(obj2); // { name: 'Bob' }
 
 
 // Basic Operators (+, -, *, /, %)
@@ -54,7 +92,7 @@ numbers.pop(); // Removes from the end
 console.log("Pop 4:", numbers);
 numbers.shift(); // Removes from the start
 console.log("Shift :", numbers);
-numbers.unshift(0); // Adds at the start
+numbers.unshift(5); // Adds at the start
 console.log("Unshift :", numbers);
 
 // Simple DOM Manipulation (querySelector, getElementById)
